@@ -1,10 +1,4 @@
-/*!
- * Webflow: Front-end site library
- * @license MIT
- * Inline scripts may access the api using an async handler:
- *   var Webflow = Webflow || [];
- *   Webflow.push(readyFunction);
- */
+
 ! function(t) {
     var e = {};
 
@@ -14240,14 +14234,14 @@
                 i = n.env("editor");
             r ? i && t.remove() : (t.length && t.remove(), i || o.append(e))
         }
-        return r.ready = function() {
-            var r, n, o, s = a.attr("data-wf-status"),
-                p = a.attr("data-wf-domain") || "";
-            /\.webflow\.io$/i.test(p) && l.hostname !== p && (s = !0), s && !c && (e = e || (r = t('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs"), n = t("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon.f67cd735e3.svg").attr("alt", "").css({
-                marginRight: "8px",
-                width: "16px"
-            }), o = t("<img>").attr("src", "https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg").attr("alt", "Made in Webflow"), r.append(n, o), r[0]), f(), setTimeout(f, 500), t(i).off(h, u).on(h, u))
-        }, r
+        // return r.ready = function() {
+        //     var r, n, o, s = a.attr("data-wf-status"),
+        //         p = a.attr("data-wf-domain") || "";
+        //     /\.webflow\.io$/i.test(p) && l.hostname !== p && (s = !0), s && !c && (e = e || (r = t('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs"), n = t("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon.f67cd735e3.svg").attr("alt", "").css({
+        //         marginRight: "8px",
+        //         width: "16px"
+        //     }), o = t("<img>").attr("src", "https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg").attr("alt", "Made in Webflow"), r.append(n, o), r[0]), f(), setTimeout(f, 500), t(i).off(h, u).on(h, u))
+        // }, r
     })
 }, function(t, e, r) {
     "use strict";
