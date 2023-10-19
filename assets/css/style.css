@@ -1,3 +1,6 @@
+:root{
+    --primary: #00E7FF;
+}
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -41,7 +44,7 @@ template {
 
 a {
     background-color: transparent;
-    color: #44dbae;
+    color: var(--primary);
     text-decoration: none
 }
 
@@ -2193,7 +2196,7 @@ body {
     margin: 0;
     min-height: 100%;
     padding-top: 62px;
-    background-color: #121212;
+    background-color: #000000;
     font-family: 'Red Hat Display', sans-serif;
     color: #fff;
     font-size: 18px;
@@ -2259,7 +2262,7 @@ blockquote {
     padding: 20px;
     border-style: solid;
     border-width: 1px 1px 1px 8px;
-    border-color: #53fdca;
+    border-color: var(--primary);
     background-color: rgba(83, 253, 202, .1);
     color: #fff;
     font-size: 18px;
@@ -2404,13 +2407,13 @@ figcaption {
 }
 
 .nav-link:hover {
-    border-bottom-color: #44dbae;
-    color: #53fdca;
+    border-bottom-color: var(--primary);
+    color: var(--primary);
     text-decoration: none
 }
 
 .nav-link.w--current {
-    color: #53fdca
+    color: var(--primary)
 }
 
 .nav-link.dropdown {
@@ -2418,8 +2421,8 @@ figcaption {
 }
 
 .nav-link.dropdown.w--open {
-    border-bottom-color: #44dbae;
-    color: #53fdca
+    border-bottom-color: var(--primary);
+    color: var(--primary)
 }
 
 .brand {
@@ -2462,7 +2465,7 @@ figcaption {
 }
 
 .text-primary {
-    color: #53fdca
+    color: var(--primary)
 }
 
 .style-guide-inner {
@@ -2533,7 +2536,7 @@ figcaption {
 }
 
 .style-guide-color.primary {
-    background-color: #53fdca
+    background-color: var(--primary)
 }
 
 .style-guide-color.white {
@@ -2558,7 +2561,7 @@ figcaption {
 }
 
 .style-guide-color.secondary {
-    background-color: #44dbae
+    background-color: var(--primary)
 }
 
 .style-guide-color.primary-dark {
@@ -2613,7 +2616,7 @@ figcaption {
 }
 
 .button.primary {
-    background-color: #53fdca;
+    background-color: var(--primary);
     color: #121212
 }
 
@@ -2627,16 +2630,16 @@ figcaption {
 }
 
 .button.white:hover {
-    background-color: #53fdca
+    background-color: var(--primary)
 }
 
 .button.primary-light {
     background-color: rgba(83, 253, 202, .1);
-    color: #53fdca
+    color: var(--primary)
 }
 
 .button.primary-light:hover {
-    background-color: #53fdca;
+    background-color: var(--primary);
     color: #121212
 }
 
@@ -2650,13 +2653,13 @@ figcaption {
 }
 
 .button.outline-primary {
-    border-color: #53fdca;
+    border-color: var(--primary);
     background-color: transparent;
-    color: #53fdca
+    color: var(--primary)
 }
 
 .button.outline-primary:hover {
-    background-color: #53fdca;
+    background-color: var(--primary);
     color: #121212
 }
 
@@ -2691,7 +2694,7 @@ figcaption {
 
 .button.black:hover,
 .button.primary-invert {
-    background-color: #53fdca;
+    background-color: var(--primary);
     color: #121212
 }
 
@@ -2706,7 +2709,7 @@ figcaption {
 }
 
 .button.light:hover {
-    background-color: #53fdca
+    background-color: var(--primary)
 }
 
 .button.medium {
@@ -2754,7 +2757,7 @@ figcaption {
     background-repeat: no-repeat;
     -webkit-transition: padding .2s;
     transition: padding .2s;
-    color: #53fdca;
+    color: var(--primary);
     font-weight: 500
 }
 
@@ -2793,7 +2796,7 @@ figcaption {
 }
 
 .footer-link:hover {
-    color: #53fdca;
+    color: var(--primary);
     text-decoration: none
 }
 
@@ -2939,7 +2942,7 @@ figcaption {
 }
 
 .text-secondary {
-    color: #44dbae
+    color: var(--primary)
 }
 
 .company-link {
@@ -3086,7 +3089,7 @@ figcaption {
     width: 43px;
     height: 43px;
     margin-right: 2px;
-    background-color: #53fdca
+    background-color: var(--primary)
 }
 
 .button-icon.link-arrow {
@@ -3322,7 +3325,7 @@ figcaption {
 }
 
 .blog-post-link-content.dark-grey:hover {
-    color: #53fdca
+    color: var(--primary)
 }
 
 .blog-post-link-content.resources {
@@ -3369,7 +3372,7 @@ figcaption {
 }
 
 .plus-icon.primary {
-    background-color: #53fdca
+    background-color: var(--primary)
 }
 
 .plus-icon.price-plans {
@@ -3382,7 +3385,7 @@ figcaption {
 
 .plus-icon.active,
 .plus-icon.price-plans.active {
-    background-color: #53fdca
+    background-color: var(--primary)
 }
 
 .subscribe-bullets {
@@ -3542,14 +3545,14 @@ figcaption {
     margin-top: 1px;
     margin-left: -26px;
     border-style: solid;
-    border-color: #53fdca;
+    border-color: var(--primary);
     border-radius: 0;
     background-color: #252525
 }
 
 .checkbox.w--redirected-checked {
-    border-color: #53fdca;
-    background-color: #53fdca;
+    border-color: var(--primary);
+    background-color: var(--primary);
     background-image: url("https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60f039cbf7141d8a77a47f8d_tick-small%20(1).svg");
     background-size: 20px
 }
@@ -3565,7 +3568,7 @@ figcaption {
 
 .form-success {
     background-color: rgba(83, 253, 202, .1);
-    color: #53fdca;
+    color: var(--primary);
     font-size: 14px;
     text-align: center
 }
@@ -3774,7 +3777,7 @@ figcaption {
 
 .features-items.bordered:hover {
     background-color: #252525;
-    color: #53fdca
+    color: var(--primary)
 }
 
 .text-semi,
@@ -4175,8 +4178,8 @@ figcaption {
 }
 
 .why-link-block:hover {
-    border-color: #53fdca;
-    color: #53fdca;
+    border-color: var(--primary);
+    color: var(--primary);
     text-decoration: none
 }
 
@@ -4224,7 +4227,7 @@ figcaption {
 
 .step-tabs-menu-link.w--current {
     max-height: 500px;
-    border-color: #53fdca;
+    border-color: var(--primary);
     background-color: transparent
 }
 
@@ -4300,7 +4303,7 @@ figcaption {
 
 .pricing-tabs-menu-link.w--current {
     background-color: #252525;
-    color: #53fdca
+    color: var(--primary)
 }
 
 .opacity-60 {
@@ -4444,7 +4447,7 @@ figcaption {
 }
 
 .cases-tabs-menu-link.w--current {
-    border-bottom-color: #53fdca;
+    border-bottom-color: var(--primary);
     background-color: #1f1f1f
 }
 
@@ -4511,7 +4514,7 @@ figcaption {
     padding: 2px 7px;
     background-color: rgba(83, 253, 202, .1);
     font-family: 'Space Mono', sans-serif;
-    color: #53fdca;
+    color: var(--primary);
     font-size: 12px;
     font-weight: 400
 }
@@ -4522,7 +4525,7 @@ figcaption {
 }
 
 .label.primary {
-    background-color: #53fdca;
+    background-color: var(--primary);
     color: #121212
 }
 
@@ -4633,7 +4636,7 @@ figcaption {
 }
 
 .video-link-play-button:hover {
-    background-color: #53fdca
+    background-color: var(--primary)
 }
 
 .top-features-row {
@@ -5254,7 +5257,7 @@ figcaption {
 }
 
 .mobile-platforms-menu-item:hover {
-    color: #44dbae;
+    color: var(--primary);
     text-decoration: none
 }
 
@@ -5373,7 +5376,7 @@ figcaption {
 }
 
 .info-link:hover {
-    color: #53fdca;
+    color: var(--primary);
     text-decoration: none
 }
 
@@ -5761,7 +5764,7 @@ figcaption {
 
 .faq-item-title.dark.w--open {
     background-image: url("https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/6238e227a448503fa4d12819_x-small.svg");
-    color: #53fdca
+    color: var(--primary)
 }
 
 .faq-item-content {
@@ -6073,7 +6076,7 @@ figcaption {
 
 .use-cases-tabs-menu-link.w--current {
     background-color: #121212;
-    color: #53fdca
+    color: var(--primary)
 }
 
 .use-cases-menu-left {
@@ -6197,7 +6200,7 @@ figcaption {
     right: 50%;
     z-index: 1;
     width: 0;
-    background-color: #44dbae
+    background-color: var(--primary)
 }
 
 .range-slider-track.active.first {
@@ -6214,7 +6217,7 @@ figcaption {
     width: 18px;
     height: 18px;
     margin-top: 2px;
-    border: 2px solid #44dbae;
+    border: 2px solid var(--primary);
     border-radius: 50%;
     background-color: #fff;
     -webkit-transform: translate(50%, -50%);
@@ -6346,10 +6349,10 @@ figcaption {
 
 .billing-period-radio.w--redirected-checked {
     border-width: 2px;
-    border-color: #44dbae;
+    border-color: var(--primary);
     border-radius: 0;
     outline-offset: -3px;
-    outline: #44dbae solid 3px
+    outline: var(--primary) solid 3px
 }
 
 .billing-period-radio.w--redirected-focus {
@@ -6914,14 +6917,14 @@ figcaption {
     margin-top: 12px;
     border: 2px solid #fff;
     border-radius: 50%;
-    background-color: #44dbae;
+    background-color: var(--primary);
     box-shadow: 0 0 0 8px rgba(68, 219, 174, .2), 0 0 0 18px #fff
 }
 
 .timeline-point-circle.dark {
     border-width: 2px;
     border-color: #121212;
-    background-color: #53fdca;
+    background-color: var(--primary);
     box-shadow: 0 0 0 10px rgba(83, 253, 202, .1), 0 0 0 18px #121212
 }
 
@@ -7457,7 +7460,7 @@ figcaption {
 }
 
 .rich-black blockquote {
-    border-color: #31bd93 #44dbae #31bd93 #31bd93;
+    border-color: #31bd93 var(--primary) #31bd93 #31bd93;
     background-color: rgba(49, 189, 147, .1);
     color: #121212
 }
@@ -8734,7 +8737,7 @@ figcaption {
     background-color: hsla(0, 0%, 100%, .03);
     -webkit-transition: border-color .2s, background-color .2s;
     transition: border-color .2s, background-color .2s;
-    color: #53fdca
+    color: var(--primary)
 }
 
 .nav-link-block.light-block:hover {
@@ -8749,7 +8752,7 @@ figcaption {
 
 .nav-link-block.simple:hover {
     background-color: transparent;
-    color: #44dbae
+    color: var(--primary)
 }
 
 .nav-dropdown-right {
@@ -8967,7 +8970,7 @@ figcaption {
 .announcement-banner {
     padding-top: 12px;
     padding-bottom: 12px;
-    background-color: #53fdca
+    background-color: var(--primary)
 }
 
 .announcement-banner.banner {
@@ -9025,7 +9028,7 @@ figcaption {
 }
 
 .announcement-content-close.banner-close:hover {
-    background-color: #44dbae
+    background-color: var(--primary)
 }
 
 @media screen and (max-width:991px) {
@@ -9681,7 +9684,7 @@ figcaption {
     }
     .nav-link-block:hover {
         background-color: transparent;
-        color: #44dbae
+        color: var(--primary)
     }
     .nav-link-block.light-block {
         margin-right: 10px;
