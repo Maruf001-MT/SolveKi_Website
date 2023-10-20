@@ -2565,7 +2565,7 @@ figcaption {
 }
 
 .style-guide-color.primary-dark {
-    background-color: #31bd93
+    background-color: var(--primary)
 }
 
 .style-guide-color.light-grey {
@@ -3281,7 +3281,7 @@ figcaption {
 }
 
 .blog-post-link.white:hover {
-    color: #31bd93
+    color: var(--primary)
 }
 
 .blog-post-link.dark-grey {
@@ -3336,7 +3336,7 @@ figcaption {
     display: inline-block;
     margin-bottom: 5px;
     font-family: 'Space Mono', sans-serif;
-    color: #31bd93;
+    color: var(--primary);
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase
@@ -3575,7 +3575,7 @@ figcaption {
 
 .form-success.light {
     background-color: rgba(49, 189, 147, .15);
-    color: #31bd93
+    color: var(--primary)
 }
 
 .error-message {
@@ -3772,7 +3772,7 @@ figcaption {
     border: 1px solid hsla(0, 0%, 100%, .1);
     -webkit-transition: background-color .2s;
     transition: background-color .2s;
-    color: #31bd93
+    color: var(--primary)
 }
 
 .features-items.bordered:hover {
@@ -4521,7 +4521,7 @@ figcaption {
 
 .label.green {
     background-color: rgba(68, 219, 174, .15);
-    color: #31bd93
+    color: var(--primary)
 }
 
 .label.primary {
@@ -4582,7 +4582,7 @@ figcaption {
 }
 
 .text-primary-dark {
-    color: #31bd93
+    color: var(--primary);
 }
 
 .img {
@@ -4703,9 +4703,9 @@ figcaption {
 }
 
 .center-tabs-link.w--current {
-    border-bottom-color: #31bd93;
+    border-bottom-color: var(--primary);
     background-color: transparent;
-    color: #31bd93
+    color: var(--primary)
 }
 
 .center-tabs-link.dev {
@@ -4725,7 +4725,7 @@ figcaption {
 
 .center-tabs-link.dev.w--current {
     border-bottom-style: none;
-    background-color: #31bd93;
+    background-color: var(--primary);
     opacity: 1;
     color: #fff
 }
@@ -4984,7 +4984,7 @@ figcaption {
 
 .label-icon {
     margin-right: 2px;
-    background-color: #31bd93
+    background-color: var(--primary)
 }
 
 .app-info {
@@ -5264,7 +5264,7 @@ figcaption {
 .mobile-platforms-menu-item.w--current {
     overflow: visible;
     background-color: transparent;
-    color: #31bd93
+    color: var(--primary)
 }
 
 .mobile-platforms-menu-item.last {
@@ -5754,7 +5754,7 @@ figcaption {
 
 .faq-item-title.w--open {
     background-image: url("https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62405194f19ab3277ca09192_x-small%20(1).svg");
-    color: #31bd93
+    color: var(--primary)
 }
 
 .faq-item-title.dark {
@@ -6165,7 +6165,7 @@ figcaption {
 }
 
 .range-slider-item:hover {
-    color: #31bd93
+    color: var(--primary)
 }
 
 .range-slider-item.w--current {
@@ -6275,7 +6275,7 @@ figcaption {
     margin-top: -42px;
     padding: 4px 10px;
     border-radius: 4px;
-    background-color: #31bd93;
+    background-color: var(--primary);
     -webkit-transform: translate(-50%, 0);
     -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
@@ -6295,14 +6295,14 @@ figcaption {
     width: 10px;
     height: 10px;
     border-radius: 1px;
-    background-color: #31bd93;
+    background-color: var(--primary);
     -webkit-transform: translate(-50%, 0) rotate(45deg);
     -ms-transform: translate(-50%, 0) rotate(45deg);
     transform: translate(-50%, 0) rotate(45deg)
 }
 
 .link-primary-dark {
-    color: #31bd93
+    color: var(--primary)
 }
 
 .detailed-pricing {
@@ -6656,7 +6656,7 @@ figcaption {
 }
 
 .license-purchase-radio.w--redirected-checked {
-    border: 1px solid #31bd93;
+    border: 1px solid var(--primary);
     box-shadow: 0 0 0 3px rgba(49, 189, 147, .2)
 }
 
@@ -6727,7 +6727,7 @@ figcaption {
     align-items: center;
     border: 2px solid #fff;
     border-radius: 50%;
-    background-color: #31bd93;
+    background-color: var(--primary);
     color: #fff;
     font-size: 14px;
     font-weight: 700
@@ -6763,7 +6763,7 @@ figcaption {
 
 .license-purchase-tabs-link.w--current {
     background-color: #fff;
-    color: #31bd93
+    color: var(--primary)
 }
 
 .license-purchase-tabs-menu {
@@ -7234,8 +7234,8 @@ figcaption {
 }
 
 .integration-category-link.w--current {
-    border-left-color: #31bd93;
-    color: #31bd93
+    border-left-color: var(--primary);
+    color: var(--primary)
 }
 
 .integration-row-item-link {
@@ -7359,7 +7359,7 @@ figcaption {
 .integration-row-action:hover {
     border-color: #121212;
     background-color: #fff;
-    color: #31bd93;
+    color: var(--primary);
     text-decoration: none
 }
 
@@ -7439,7 +7439,7 @@ figcaption {
 }
 
 .text-link-black:hover {
-    color: #31bd93;
+    color: var(--primary);
     text-decoration: none
 }
 
@@ -7460,7 +7460,7 @@ figcaption {
 }
 
 .rich-black blockquote {
-    border-color: #31bd93 var(--primary) #31bd93 #31bd93;
+    border-color: var(--primary) var(--primary) var(--primary) var(--primary);
     background-color: rgba(49, 189, 147, .1);
     color: #121212
 }
@@ -7480,7 +7480,7 @@ figcaption {
 .text-link-primary-dark {
     -webkit-transition: color .2s;
     transition: color .2s;
-    color: #31bd93
+    color: var(--primary)
 }
 
 .text-link-primary-dark:hover {
@@ -7908,7 +7908,7 @@ figcaption {
 }
 
 .contact-tabs-link.w--current {
-    background-color: #31bd93;
+    background-color: var(--primary);
     color: #fff
 }
 
@@ -7927,7 +7927,7 @@ figcaption {
     background-repeat: no-repeat;
     -webkit-transition: color .2s;
     transition: color .2s;
-    color: #31bd93;
+    color: var(--primary);
     font-size: 14px;
     font-weight: 500
 }
@@ -8178,9 +8178,9 @@ figcaption {
 }
 
 .blog-nav-link.w--current {
-    border-bottom-color: #31bd93;
+    border-bottom-color: var(--primary);
     background-color: transparent;
-    color: #31bd93
+    color: var(--primary)
 }
 
 .blog-nav {
@@ -8257,7 +8257,7 @@ figcaption {
 .blog-action:hover {
     border-color: #121212;
     background-color: #fff;
-    color: #31bd93;
+    color: var(--primary);
     text-decoration: none
 }
 
@@ -8327,7 +8327,7 @@ figcaption {
 }
 
 .blog-social:hover {
-    background-color: #31bd93
+    background-color: var(--primary)
 }
 
 .blog-socials {
@@ -8426,7 +8426,7 @@ figcaption {
 
 .help-center-article:hover {
     background-color: #fcfcfc;
-    color: #31bd93;
+    color: var(--primary);
     text-decoration: none
 }
 
@@ -8484,12 +8484,12 @@ figcaption {
 }
 
 .article-nav-link:hover {
-    color: #31bd93;
+    color: var(--primary);
     text-decoration: none
 }
 
 .article-nav-link.w--current {
-    color: #31bd93
+    color: var(--primary)
 }
 
 .policy-section {
@@ -8512,8 +8512,8 @@ figcaption {
 }
 
 .policy-nav-link.w--current {
-    border-left-color: #31bd93;
-    color: #31bd93
+    border-left-color: var(--primary);
+    color: var(--primary)
 }
 
 .policy-nav {

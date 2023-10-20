@@ -376,7 +376,7 @@ class HeaderTemplate extends HTMLElement {
     </div>
     <div class="nav-menu-right"><a href="/" class="nav-link w-nav-link">Schedule a Meeting</a></div>
     </nav>
-    <div class="nav-actions-container"><a href="https://webflow.com/templates/designers/craftengine" class="nav-menu-action button primary small w-button">Contact Us</a>
+    <div class="nav-actions-container"><a href="https://solveki.prozukty.com/contact/" class="nav-menu-action button primary small w-button">Contact Us</a>
         <div class="mob-menu-button w-nav-button"></div>
     </div>
     </div>
