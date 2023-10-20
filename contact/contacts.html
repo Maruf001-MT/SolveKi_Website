@@ -16,7 +16,13 @@
     <meta content="summary_large_image" name="twitter:card" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Webflow" name="generator" />
-    <link href="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/css/softkit-template.webflow.7f4d780f2.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Templates -->
+    <script type="module" src="/./templates/header.js"></script>
+    <script type="module" src="/./templates/footer.js"></script>
+
+
+    <link href="/./assets/css/style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
@@ -40,390 +46,17 @@
 
 <body>
     <div class="wrap">
-        <div data-collapse="medium" data-animation="default" data-duration="0" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
-            <div class="container nav">
-                <div class="navbar-container"><a href="/" class="brand w-nav-brand"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60eebade185842530a0b28a1_softkit-logo.svg" loading="lazy" alt="" height="35"/></a><a href="/" class="brand short w-nav-brand"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62c0431e7cea7b5c46b90a8c_mobile-logo-short.svg" loading="lazy" alt="" height="35"/></a>
-                    <nav
-                        role="navigation" class="nav-menu w-nav-menu">
-                        <div>
-                            <div data-hover="false" data-delay="0" class="nav-dropdown-link w-dropdown">
-                                <div class="nav-link dropdown w-dropdown-toggle">
-                                    <div class="nav-link-icon w-icon-dropdown-toggle"></div>
-                                    <div>Products</div>
-                                </div>
-                                <nav class="nav-dropdown w-dropdown-list">
-                                    <div class="container dropdown-inner">
-                                        <div class="row nav-dropdown-main w-row">
-                                            <div class="nav-dropdown-left w-col w-col-8 w-col-stack">
-                                                <div class="row nav-dropdown-inner w-row">
-                                                    <div class="mb-30 w-col w-col-8 w-col-small-small-stack">
-                                                        <div class="nav-dropdown-section-divider">
-                                                            <div class="subtitle text-extra-small text-grey mb-10">HOME PAGES</div>
-                                                            <div class="row mb-30 w-row">
-                                                                <div class="w-col w-col-6"><a href="/home/saas" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/623a029d47497c25f67b31e2_servers.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Saas</div><div class="text-small text-light-grey">Home page - variant 1</div></div></a>
-                                                                    <a
-                                                                        href="/home/startup" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62068c759543ef35c8503f9a_box.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon" />
-                                                                        <div>
-                                                                            <div class="text-medium text-semi">Startup</div>
-                                                                            <div class="text-small text-light-grey">Home page - variant 2</div>
-                                                                        </div>
-                                                                        </a><a href="/home/software" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/623a028a359dbc6c719731c7_database.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Software</div><div class="text-small text-light-grey">Home page - variant 3</div></div></a></div>
-                                                                <div
-                                                                    class="w-col w-col-6"><a href="/home/desktop-app" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/620bc98eef6a67f73776baf2_brush.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Desktop app</div><div class="text-small text-light-grey">Home page - variant 4</div></div></a>
-                                                                    <a
-                                                                        href="/home/mobile-app" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/620bc9a3fdc3f3b24880538f_toggle.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon" />
-                                                                        <div>
-                                                                            <div class="text-medium text-semi">Mobile app</div>
-                                                                            <div class="text-small text-light-grey">Home page - variant 5</div>
-                                                                        </div>
-                                                                        </a><a href="/home/dev-tool" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/623a02940d121a5006d0322a_git-compare.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Developer tool</div><div class="text-small text-light-grey">Home page - variant 6</div></div></a></div>
-                                                        </div>
-                                                        <div class="subtitle text-extra-small text-grey mb-10">TECH PAGES</div>
-                                                        <div class="row w-row">
-                                                            <div class="w-col w-col-6"><a href="/download" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb391651501432172b012_download.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Download</div></div></a>
-                                                                <a
-                                                                    href="/case-studies" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/620bc997d9f0376083934acd_users.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon" />
-                                                                    <div>
-                                                                        <div class="text-medium text-semi">Case stadies</div>
-                                                                    </div>
-                                                                    </a>
-                                                            </div>
-                                                            <div class="w-col w-col-6"><a href="/integrations" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb3913b47d548a3f2b6c6_grid-layout.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Integrations</div></div></a></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="w-col w-col-4 w-col-small-small-stack">
-                                                    <div class="subtitle text-extra-small text-grey mb-10">FEATURES PAGES</div>
-                                                    <div class="mb-30"><a href="/features/product" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60f5950ee816cfd767d0a239_compass.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Product features</div></div></a>
-                                                        <a
-                                                            href="/features/solutions" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60f5950202189644d7d95b60_layers.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon" />
-                                                            <div>
-                                                                <div class="text-medium text-semi">Solutions</div>
-                                                            </div>
-                                                            </a><a href="/features/use-cases" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60f593bbe816cf6903d09f2d_shield-tick.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Use cases</div></div></a></div>
-                                                    <div
-                                                        class="subtitle text-extra-small text-grey mb-10">PRICING PAGES</div><a href="/pricing/price-plans" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb758ee998b8f47bb6552_tag.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Price plans</div></div></a>
-                                                <a
-                                                    href="/pricing/custom-plan" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb758f7202234523f570b_toggle.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon" />
-                                                    <div>
-                                                        <div class="text-medium text-semi">Custom plan</div>
-                                                    </div>
-                                                    </a><a href="/pricing/license-purchase" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb758ee7f14ef149fac32_cart.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">License purchase</div></div></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="nav-dropdown-right w-col w-col-4 w-col-stack">
-                                        <div class="nav-dropdown-right-bg"></div>
-                                        <div class="nav-dropdown-right-content">
-                                            <div class="subtitle text-extra-small text-grey mb-10">LEARN</div><a href="/help-center" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62499d6b4993c18620f63328_91%20(2).svg" loading="lazy" width="36" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Help center</div><div class="text-small text-light-grey">Advice and answers from the Softkit team</div></div></a>
-                                            <a
-                                                href="/contacts" aria-current="page" class="nav-link-block w-inline-block w--current"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62499d3661b33d52968a505e_05%20(3).svg" loading="lazy" width="36" alt="" class="nav-dropdown-link-icon" />
-                                                <div>
-                                                    <div class="text-medium text-semi">Support</div>
-                                                    <div class="text-small text-light-grey">Let us know how we can help</div>
-                                                </div>
-                                                </a><a href="/help-center-category" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb05fecff6a3cb8032be2_code-doc.svg" loading="lazy" width="36" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Documentation</div><div class="text-small text-light-grey">Examples and references for using API</div></div></a>
-                                                <a
-                                                    href="/blog" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62499d79e3129e018160f962_02%20(3).svg" loading="lazy" width="36" alt="" class="nav-dropdown-link-icon" />
-                                                    <div>
-                                                        <div class="text-medium text-semi">Blog</div>
-                                                        <div class="text-small text-light-grey">Top product news, tips and stories</div>
-                                                    </div>
-                                                    </a>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
-                        </nav>
-                </div>
-                <div data-hover="false" data-delay="0" class="nav-dropdown-link w-dropdown">
-                    <div class="nav-link dropdown w-dropdown-toggle">
-                        <div class="nav-link-icon w-icon-dropdown-toggle"></div>
-                        <div>Platform</div>
-                    </div>
-                    <nav class="nav-dropdown w-dropdown-list">
-                        <div class="container dropdown-inner">
-                            <div class="row nav-dropdown-main w-row">
-                                <div class="nav-dropdown-left w-col w-col-8 w-col-stack">
-                                    <div>
-                                        <div class="subtitle text-extra-small text-grey mb-20">FEATURES</div>
-                                        <div class="row nav-link-block-row w-row">
-                                            <div class="w-col w-col-6"><a href="/features/product" class="nav-link-block light-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/623a37ab4d26f92dbddd537f_dev-feature-2.svg" loading="lazy" width="100" alt="" class="nav-link-block-icon"/><div><div class="text-semi mb-10 text-white">Product features</div><div class="text-light-grey text-small mb-10">Suspendisse varius enim in eros elementum tristique.</div><div class="text-small">Learn more</div></div></a></div>
-                                            <div
-                                                class="w-col w-col-6"><a href="/features/solutions" class="nav-link-block light-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/623a38544d26f9e4efdd568f_dev-feature-1.svg" loading="lazy" width="100" alt="" class="mr-14"/><div><div class="text-semi mb-10 text-white">Solutions</div><div class="text-light-grey text-small mb-10">Suspendisse varius enim in eros elementum tristique.</div><div class="text-small">Learn more</div></div></a></div>
-                                    </div>
-                                    <div class="row nav-link-block-row w-row">
-                                        <div class="w-col w-col-6"><a href="/features/use-cases" class="nav-link-block light-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/623a379aedf5590cb4690bee_dev-feature-4.svg" loading="lazy" width="100" alt="" class="mr-14"/><div><div class="text-semi mb-10 text-white">Use cases</div><div class="text-light-grey text-small mb-10">Suspendisse varius enim in eros elementum tristique.</div><div class="text-small">Learn more</div></div></a></div>
-                                        <div
-                                            class="w-col w-col-6"><a href="/case-studies" class="nav-link-block light-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/623a35edd83d0bdcf5691f6d_dev-feature-3.svg" loading="lazy" width="100" alt="" class="mr-14"/><div><div class="text-semi mb-10 text-white">Case studies</div><div class="text-light-grey text-small mb-10">Suspendisse varius enim in eros elementum tristique.</div><div class="text-small">Learn more</div></div></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="nav-dropdown-right w-col w-col-4 w-col-stack">
-                            <div class="nav-dropdown-right-bg"></div>
-                            <div class="nav-dropdown-right-content">
-                                <div class="subtitle text-extra-small text-grey mb-10">INTEGRATIONS</div>
-                                <div class="mb-10 w-dyn-list">
-                                    <div role="list" class="w-dyn-items">
-                                        <div role="listitem" class="w-dyn-item">
-                                            <a href="/integrations/influentico" class="nav-link-block w-inline-block">
-                                                <div>
-                                                    <div class="nav-item-flex-title">
-                                                        <div class="text-medium mr-10">Influentico</div>
-                                                        <div class="label small">Billing</div>
-                                                    </div>
-                                                    <div class="nav-blog-content">
-                                                        <div class="text-small text-light-grey">Aperiam non non debitis aut doloribus sapiente quam. Itaque totam explicabo nesciunt maiores expedita itaque. Consequatur iusto hic tempore odit perferendis. Quam autem est molestias et ipsum. Blanditiis
-                                                            non nesciunt et eligendi consequ</div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div role="listitem" class="w-dyn-item">
-                                            <a href="/integrations/flosso" class="nav-link-block w-inline-block">
-                                                <div>
-                                                    <div class="nav-item-flex-title">
-                                                        <div class="text-medium mr-10">Flosso</div>
-                                                        <div class="label small">CRM</div>
-                                                    </div>
-                                                    <div class="nav-blog-content">
-                                                        <div class="text-small text-light-grey">Dolor nobis et possimus sit totam dolores fugiat provident. Quis quis et sint mollitia beatae illo. Magnam magni architecto laborum ea. Nihil sit provident necessitatibus nemo place</div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div role="listitem" class="w-dyn-item">
-                                            <a href="/integrations/ophalla" class="nav-link-block w-inline-block">
-                                                <div>
-                                                    <div class="nav-item-flex-title">
-                                                        <div class="text-medium mr-10">Ophalla</div>
-                                                        <div class="label small">Monitoring</div>
-                                                    </div>
-                                                    <div class="nav-blog-content">
-                                                        <div class="text-small text-light-grey">Facilis itaque error ut dicta. Aspernatur non consequatur occaecati sapiente qui. Aut et omnis. Rerum quia rerum minus amet ipsam. Deserunt ipsam dolores quia a sapiente aut. Sunt odit odio in. Est
-                                                            doloremque praesentium. Cum hic voluptas eos labore odio et distinctio blandit</div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div><a href="/integrations" class="link text-medium">All integrations<br/></a></div>
-                        </div>
-                </div>
-            </div>
-            </nav>
-        </div><a href="/pricing/price-plans" class="nav-link w-nav-link">Pricing</a><a href="/company" class="nav-link w-nav-link">Company</a><a href="/blog" class="nav-link w-nav-link">Blog</a>
-        <div data-hover="false" data-delay="0" class="nav-dropdown-link w-dropdown">
-            <div class="nav-link dropdown w-dropdown-toggle">
-                <div class="nav-link-icon w-icon-dropdown-toggle"></div>
-                <div>Resources</div>
-            </div>
-            <nav class="nav-dropdown w-dropdown-list">
-                <div class="container dropdown-inner">
-                    <div class="row nav-dropdown-main w-row">
-                        <div class="nav-dropdown-left w-col w-col-8 w-col-stack">
-                            <div>
-                                <div class="subtitle text-extra-small text-grey mb-10">TEMPLATE PAGES</div>
-                                <div class="row mb-30 w-row">
-                                    <div class="w-col w-col-4">
-                                        <a href="/home/saas" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">SaaS - Home var.1</div>
-                                            </div>
-                                        </a>
-                                        <a href="/home/startup" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Startup - Home var.2</div>
-                                            </div>
-                                        </a>
-                                        <a href="/home/software" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Software - Home var.3</div>
-                                            </div>
-                                        </a>
-                                        <a href="/home/desktop-app" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Desktop App - Home var.4</div>
-                                            </div>
-                                        </a>
-                                        <a href="/home/mobile-app" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Mobile App - Home var.5</div>
-                                            </div>
-                                        </a>
-                                        <a href="/home/dev-tool" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Dev Tool  - Home var.6</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="w-col w-col-4">
-                                        <a href="/features/product" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Product - Features var.1</div>
-                                            </div>
-                                        </a>
-                                        <a href="/features/solutions" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Solutions - Features var.2</div>
-                                            </div>
-                                        </a>
-                                        <a href="/features/use-cases" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Use Cases - Features var.3</div>
-                                            </div>
-                                        </a>
-                                        <a href="/pricing/price-plans" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Price Plans - Pricing var.1</div>
-                                            </div>
-                                        </a>
-                                        <a href="/pricing/custom-plan" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Custom Plan - Pricing var.2</div>
-                                            </div>
-                                        </a>
-                                        <a href="/pricing/license-purchase" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">License - Pricing var.3</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="w-col w-col-4">
-                                        <a href="/company" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Company | About Us</div>
-                                            </div>
-                                        </a>
-                                        <a href="/careers" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Careers</div>
-                                            </div>
-                                        </a>
-                                        <a href="/integrations" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Integrations</div>
-                                            </div>
-                                        </a>
-                                        <a href="/case-studies" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Case Studies</div>
-                                            </div>
-                                        </a>
-                                        <a href="/contacts" aria-current="page" class="nav-link-block simple w-inline-block w--current">
-                                            <div>
-                                                <div class="text-small text-semi">Contacts</div>
-                                            </div>
-                                        </a>
-                                        <a href="/download" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Download</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="divider grey"></div>
-                                <div class="row mb-30 w-row">
-                                    <div class="w-col w-col-4">
-                                        <a href="/blog" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Blog</div>
-                                            </div>
-                                        </a>
-                                        <a href="/help-center" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Help Center</div>
-                                            </div>
-                                        </a>
-                                        <a href="/help-center-category" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Support</div>
-                                            </div>
-                                        </a>
-                                        <a href="/" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">About Template</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="w-col w-col-4">
-                                        <a href="/signup" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Sign up</div>
-                                            </div>
-                                        </a>
-                                        <a href="/login" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Login</div>
-                                            </div>
-                                        </a>
-                                        <a href="/password-recovery" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Password Recovery</div>
-                                            </div>
-                                        </a>
-                                        <a href="/search" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Search Results</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="w-col w-col-4">
-                                        <a href="/policy" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Policy</div>
-                                            </div>
-                                        </a>
-                                        <a href="/style-guide" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Style Guide</div>
-                                            </div>
-                                        </a>
-                                        <a href="/licensing" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Licensing</div>
-                                            </div>
-                                        </a>
-                                        <a href="/changelog" class="nav-link-block simple w-inline-block">
-                                            <div>
-                                                <div class="text-small text-semi">Changelog</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="nav-dropdown-right w-col w-col-4 w-col-stack">
-                            <div class="nav-dropdown-right-bg"></div>
-                            <div class="nav-dropdown-right-content">
-                                <div class="subtitle text-extra-small text-grey mb-10">LATEST ANNOUNCEMENTS</div>
-                                <div class="mb-10 w-dyn-list">
-                                    <div role="list" class="w-dyn-items">
-                                        <div role="listitem" class="w-dyn-item"><a href="/blog/why-we-love-webflow-and-you-should-too" class="nav-link-block blog w-inline-block"><img alt="" loading="lazy" src="https://uploads-ssl.webflow.com/60ef0d03d225184dc95fca10/628019f72095ef79ffd06741_post-img-18.svg" width="94" class="nav-blog-img"/><div><div class="nav-blog-title"><div class="text-medium text-semi">Why We Love Webflow (And You Should, Too!)</div></div><div class="nav-blog-content"><div class="text-small text-light-grey">Sed nec pulvinar arcu. Proin dapibus vel augue eget egestas. Quisque ullamcorper quam eu egestas aliquet. Sed at ante sed massa bibendum fac</div></div></div></a></div>
-                                        <div
-                                            role="listitem" class="w-dyn-item"><a href="/blog/the-worst-advice-weve-ever-heard-about-web-design" class="nav-link-block blog w-inline-block"><img alt="" loading="lazy" src="https://uploads-ssl.webflow.com/60ef0d03d225184dc95fca10/628019dd2d729d545ad115f4_post-img-16.svg" width="94" class="nav-blog-img"/><div><div class="nav-blog-title"><div class="text-medium text-semi">The Worst Advice We&#x27;ve Ever Heard About Web Design</div></div><div class="nav-blog-content"><div class="text-small text-light-grey">Sed nec pulvinar arcu. Proin dapibus vel augue eget egestas. Quisque ullamcorper quam eu egestas aliquet. Sed at ante sed massa bibendum fac</div></div></div></a></div>
-                                    <div
-                                        role="listitem" class="w-dyn-item"><a href="/blog/5-principles-of-effective-web-design" class="nav-link-block blog w-inline-block"><img alt="" loading="lazy" src="https://uploads-ssl.webflow.com/60ef0d03d225184dc95fca10/628019ea7c3cb5083d6b078a_post-img-17.svg" width="94" class="nav-blog-img"/><div><div class="nav-blog-title"><div class="text-medium text-semi">5 Principles Of Effective Web Design</div></div><div class="nav-blog-content"><div class="text-small text-light-grey">Sed nec pulvinar arcu. Proin dapibus vel augue eget egestas. Quisque ullamcorper quam eu egestas aliquet. Sed at ante sed massa bibendum fac</div></div></div></a></div>
-                            </div>
-                        </div><a href="/blog" class="link text-medium">Read more<br/></a></div>
-                </div>
-        </div>
-    </div>
-    </nav>
-    </div>
-    </div>
-    <div class="nav-menu-right"><a href="/" class="nav-link w-nav-link">About template</a></div>
-    </nav>
-    <div class="nav-actions-container"><a href="https://webflow.com/templates/designers/craftengine" class="nav-menu-action button primary small w-button">Buy Now</a>
-        <div class="mob-menu-button w-nav-button"></div>
-    </div>
-    </div>
-    </div>
-    </div>
+        
+
+        <header-template></header-template>
+
     <div class="section light">
         <div class="container">
             <div class="subtitle text-uppercase text-medium text-primary-dark mb-10">CONTACT US</div>
-            <h2 class="text-black">How can we help?</h2>
-            <div class="text-grey mb-60">Let us know how we can help. We will be in touch as soon as possible!</div>
+            <h2 class="text-black">Let's Connect</h2>
+            <div class="text-grey mb-60">At Solveki, we're always ready to engage with our clients and potential partners. Whether you have questions, need more information about our services, or are interested in discussing a project, we're here to assist you.
+
+            </div>
             <div class="row w-row">
                 <div class="w-col w-col-8 w-col-stack">
                     <div>
@@ -432,30 +65,28 @@
                                 <a data-w-tab="Tab 1" class="contact-tabs-link w-inline-block w-tab-link w--current">
                                     <div>Sales</div>
                                 </a>
-                                <a data-w-tab="Tab 2" class="contact-tabs-link w-inline-block w-tab-link">
+                                <!-- <a data-w-tab="Tab 2" class="contact-tabs-link w-inline-block w-tab-link">
                                     <div>Support</div>
-                                </a>
-                                <a data-w-tab="Tab 3" class="contact-tabs-link w-inline-block w-tab-link">
+                                </a> -->
+                                <!-- <a data-w-tab="Tab 3" class="contact-tabs-link w-inline-block w-tab-link">
                                     <div>Press</div>
-                                </a>
+                                </a> -->
                             </div>
                             <div class="contact-tabs-content w-tab-content">
                                 <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
                                     <div class="inner-section white">
-                                        <h4 class="text-black mb-20">Contact sales</h4>
-                                        <div class="text-grey mb-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+                                        <h4 class="text-black mb-20">Contact Us</h4>
+                                        <div class="text-grey mb-40">Connect with our sales team.</div>
                                         <div class="w-form">
-                                            <form id="wf-form-Contact-Sales" name="wf-form-Contact-Sales" data-name="Contact Sales" method="get" data-wf-page-id="60e476625d0c83c3dadc348c" data-wf-element-id="d999de15-3afa-99cb-f302-7fe570ee29f4">
-                                                <div class="form-input-group inner-label"><label for="Contact-Sales-First-Name" class="form-label inner-label">First name</label><input type="text" class="input inner-label light w-input" maxlength="256" name="Contact-Sales-First-Name" data-name="Contact Sales First Name"
+                                            <form id="wf-form-Contact-Sales" name="wf-form-Contact-Sales" data-name="Contact Sales" method="get">
+                                                <div class="form-input-group inner-label"><label for="Contact-Sales-First-Name" class="form-label inner-label">Full name</label><input type="text" class="input inner-label light w-input" maxlength="256" name="Contact-Sales-Name"
                                                         placeholder="" id="Contact-Sales-First-Name" required="" /></div>
-                                                <div class="form-input-group inner-label"><label for="Contact-Sales-Last-Name" class="form-label inner-label">Last name</label><input type="text" class="input inner-label light w-input" maxlength="256" name="Contact-Sales-Last-Name" data-name="Contact Sales Last Name"
-                                                        placeholder="" id="Contact-Sales-Last-Name" required="" /></div>
-                                                <div class="form-input-group inner-label"><label for="Contact-Sales-Email" class="form-label inner-label">Work Email</label><input type="email" class="input inner-label light w-input" maxlength="256" name="Contact-Sales-Email" data-name="Contact Sales Email"
+                                                
+                                                <div class="form-input-group inner-label"><label for="Contact-Sales-Email" class="form-label inner-label">Work Email</label><input type="email" class="input inner-label light w-input" maxlength="256" name="Contact-Sales-Email"
                                                         placeholder="" id="Contact-Sales-Email" required="" /></div>
-                                                <div class="form-input-group inner-label"><label for="Contact-Sales-Title" class="form-label inner-label">Message Title</label><input type="text" class="input inner-label light w-input" maxlength="256" name="Contact-Sales-Title" data-name="Contact Sales Title"
-                                                        placeholder="" id="Contact-Sales-Title" required="" /></div>
-                                                <div class="form-input-group inner-label"><label for="Contact-Sales-Message" class="form-label inner-label">Message Details</label><textarea id="Contact-Sales-Message" name="Contact-Sales-Message" maxlength="5000" data-name="Contact Sales Message"
-                                                        placeholder="" class="text-area inner-label light w-input"></textarea></div><label class="w-checkbox checkbox-field"><div class="w-checkbox-input w-checkbox-input--inputType-custom checkbox-light"></div><input type="checkbox" name="checkbox-2" id="checkbox-2" data-name="Checkbox 2" required="" style="opacity:0;position:absolute;z-index:-1"/><span class="text-extra-small text-light-grey align-left w-form-label" for="checkbox-2">I accept Softkit&#x27;s <a target="_blank" href="/policy" class="link-primary-dark">Terms and Conditions</a> and acknowledge that my information will be used in accordance with Softkit&#x27;s <a target="_blank" href="/policy" class="link-primary-dark">Privacy Policy</a>.</span></label>
+                                               
+                                                <div class="form-input-group inner-label"><label for="Contact-Sales-Message" class="form-label inner-label">Message Details</label><textarea id="Contact-Sales-Message" name="Contact-Sales-Message" maxlength="5000"
+                                                        placeholder="" class="text-area inner-label light w-input"></textarea></div><label class="w-checkbox checkbox-field"><div class="w-checkbox-input w-checkbox-input--inputType-custom checkbox-light"></div><input type="checkbox" name="checkbox-2" id="checkbox-2" data-name="Checkbox 2" required="" style="opacity:0;position:absolute;z-index:-1"/><span class="text-extra-small text-light-grey align-left w-form-label" for="checkbox-2">I accept Solveki&#x27;s <a target="_blank" href="#" class="link-primary-dark">Terms and Conditions</a> and acknowledge that my information will be used in accordance with Solveki&#x27;s <a target="_blank" href="#" class="link-primary-dark">Privacy Policy</a>.</span></label>
                                                 <div
                                                     class="divider"></div><input type="submit" data-wait="Please wait..." value="Submit message" class="button primary-invert block w-button" /></form>
                                         <div class="form-success light w-form-done">
@@ -494,7 +125,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div data-w-tab="Tab 3" class="w-tab-pane">
+                        <!-- <div data-w-tab="Tab 3" class="w-tab-pane">
                             <div class="inner-section white">
                                 <h4 class="text-black mb-20">Contact press</h4>
                                 <div class="text-grey mb-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
@@ -520,7 +151,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -570,59 +201,14 @@
     </div>
     </div>
     </div>
-    <div class="footer">
-        <div class="container">
-            <div class="row w-row">
-                <div class="footer-col-left w-col w-col-4 w-col-stack"><a href="/" class="mb-20 w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60eebade185842530a0b28a1_softkit-logo.svg" loading="lazy" width="140" alt=""/></a>
-                    <div>
-                        <div class="mb-20 text-grey text-medium">Build better software websites with Softkit Webflow template.</div>
-                        <div class="footer-social"><a href="https://twitter.com/" target="_blank" class="footer-social-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60e725382856b1beae2f7d44_twitter%20(3).svg" loading="lazy" width="20" alt=""/></a>
-                            <a
-                                href="https://www.instagram.com/" target="_blank" class="footer-social-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60e724ee82f901312571abcd_instagram.svg" loading="lazy" width="20" alt="" /></a><a href="https://www.facebook.com/" target="_blank" class="footer-social-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60e724f8ffb53a696611e1d3_facebook.svg" loading="lazy" width="20" alt=""/></a>
-                                <a
-                                    href="https://www.linkedin.com/" target="_blank" class="footer-social-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60e7254d64f0d08f78dadaae_linkedin%20(1).svg" loading="lazy" width="20" alt="" /></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-20-fixed w-col w-col-2 w-col-stack">
-                    <div class="text-primary subtitle text-small mb-20">PRODUCTS</div><a href="/home/saas" class="footer-link text-small">Saas</a><a href="/home/startup" class="footer-link text-small">Startup</a><a href="/home/software" class="footer-link text-small">Software</a><a href="/home/desktop-app"
-                        class="footer-link text-small">Desktop app</a><a href="/home/mobile-app" class="footer-link text-small">Mobile app</a><a href="/home/dev-tool" class="footer-link text-small">Developer tool</a><a href="/download" class="footer-link text-small">Download</a>
-                    <a
-                        href="/integrations" class="footer-link text-small">Integrations</a><a href="/integrations/puradock" class="footer-link text-small">Integration template (CMS)</a></div>
-                <div class="mb-20-fixed w-col w-col-2 w-col-stack">
-                    <div class="text-primary subtitle text-small mb-20">PLATFORM</div><a href="/features/product" class="footer-link text-small">Product features</a><a href="/features/solutions" class="footer-link text-small">Solutions</a><a href="/features/use-cases" class="footer-link text-small">Use cases</a>
-                    <a
-                        href="/pricing/custom-plan" class="footer-link text-small">Pricing</a><a href="/pricing/price-plans" class="footer-link text-small">Price plans</a><a href="/pricing/license-purchase" class="footer-link text-small">License purchase</a><a href="/signup" class="footer-link text-small">Signup</a>
-                        <a
-                            href="/login" class="footer-link text-small">Login</a><a href="/password-recovery" class="footer-link text-small">Reset password</a></div>
-                <div class="mb-20-fixed w-col w-col-2 w-col-stack">
-                    <div class="text-primary subtitle text-small mb-20">COMPANY</div><a href="/company" class="footer-link text-small">About us</a><a href="/careers" class="footer-link text-small">Careers</a><a href="/contacts" aria-current="page" class="footer-link text-small w--current">Contacts</a>
-                    <a
-                        href="/case-studies" class="footer-link text-small">Case studies</a><a href="/blog" class="footer-link text-small">Blog</a><a href="/help-center" class="footer-link text-small">Help center</a><a href="/blog/14-common-misconceptions-about-web-design" class="footer-link text-small">Blog post template (CMS)</a>
-                        <a
-                            href="/help-center/10-quick-useful-tips-about-blogging-website" class="footer-link text-small">Support template (CMS)</a><a href="/careers/senior-software-engineer-fullstack" class="footer-link text-small">Jobs template (CMS)</a></div>
-                <div class="mb-20-fixed w-col w-col-2 w-col-stack">
-                    <div class="text-primary subtitle text-small mb-20">RESOURCES</div><a href="/help-center-category" class="footer-link text-small">Support</a><a href="/style-guide" class="footer-link text-small">Style guide</a><a href="/licensing" class="footer-link text-small">Licensing</a><a href="/changelog"
-                        class="footer-link text-small">Changelog</a><a href="/policy" class="footer-link text-small">Terms and policy</a><a href="/search" class="footer-link text-small">Search results</a><a href="/401" class="footer-link text-small">Password</a>
-                    <a
-                        href="/404" class="footer-link text-small">404</a><a href="/" class="footer-link text-small">About template</a></div>
-            </div>
-            <div class="footer-legal">
-                <div class="row w-row">
-                    <div class="w-col w-col-4 w-col-stack">
-                        <div class="text-grey text-extra-small">© Softkit Inc. All Rights Reserved. Created with <strong class="text-white">❤</strong> by <a href="https://www.craftengine.co/" class="text-semi">Craftengine</a></div>
-                    </div>
-                    <div class="footer-bottom-right w-col w-col-8 w-col-stack">
-                        <div class="footer-bottom-right-container"><a href="https://webflow.com/" class="footer-link-legal text-extra-small">Powered by Webflow</a><a href="https://www.craftengine.co/contact" class="footer-link-legal text-extra-small">Template Support</a><a href="https://webflow.com/templates/designers/craftengine"
-                                class="footer-link-legal text-extra-small">Templates by Craftengine</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
+
+    <footer-template></footer-template>
+
+
     </div>
     <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60e442218dc45d472ca993d7" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/js/webflow.a0616248b.js" type="text/javascript"></script>
+    <script src="/assets/js/main.js" type="text/javascript"></script>
 </body>
 
 </html>
