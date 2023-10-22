@@ -6025,9 +6025,9 @@ figcaption {
     top: 0;
     right: 0;
     bottom: 0;
-    width: 40%;
+    width: 45%;
     height: 100%;
-    background-image: url("https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/6113f14197b554be214091c1_case-1.jpg");
+    background-image: url("/./assets/img/hero_pic.jpg");
     background-position: 50% 0;
     background-size: cover
 }

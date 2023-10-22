@@ -6,7 +6,7 @@ class FooterTemplate extends HTMLElement {
       <div class="footer">
                 <div class="container">
                     <div class="row w-row">
-                        <div class="footer-col-left w-col w-col-4 w-col-stack"><a href="/" class="mb-20 w-inline-block"><img src="assets/img/logo.svg" loading="lazy" width="140" alt=""/></a>
+                        <div class="footer-col-left w-col w-col-4 w-col-stack"><a href="/" class="mb-20 w-inline-block"><img src="https://drive.prozukty.com/share/p9hVjvZNwhflzokW" loading="lazy" width="140" alt=""/></a>
                             <div>
                                 <div class="mb-20 text-grey text-medium">Ready to transform your digital presence? Get in touch with us for a free consultation. We're ready to discuss your project and take it to the next level.</div>
                                 <div class="footer-social"><a href="https://twitter.com/" target="_blank" class="footer-social-link w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60e725382856b1beae2f7d44_twitter%20(3).svg" loading="lazy" width="20" alt=""/></a>

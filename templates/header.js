@@ -4,7 +4,7 @@ class HeaderTemplate extends HTMLElement {
 
       <div data-collapse="medium" data-animation="default" data-duration="0" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
             <div class="container nav">
-                <div class="navbar-container"><a href="/" class="brand w-nav-brand"><img src="assets/img/logo.svg" loading="lazy" alt="" height="35"/></a><a href="/" class="brand short w-nav-brand"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62c0431e7cea7b5c46b90a8c_mobile-logo-short.svg" loading="lazy" alt="" height="35"/></a>
+                <div class="navbar-container"><a href="/" class="brand w-nav-brand"><img src="https://drive.prozukty.com/share/p9hVjvZNwhflzokW" loading="lazy" alt="" height="35"/></a><a href="/" class="brand short w-nav-brand"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62c0431e7cea7b5c46b90a8c_mobile-logo-short.svg" loading="lazy" alt="" height="35"/></a>
                     <nav
                         role="navigation" class="nav-menu w-nav-menu">
                         <div>
