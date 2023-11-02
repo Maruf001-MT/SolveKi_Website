@@ -11,7 +11,7 @@ class HeaderTemplate extends HTMLElement {
                             <div data-hover="false" data-delay="0" class="nav-dropdown-link w-dropdown">
                                 <div class="nav-link dropdown w-dropdown-toggle">
                                     <div class="nav-link-icon w-icon-dropdown-toggle"></div>
-                                    <div>Products</div>
+                                    <div>Services</div>
                                 </div>
                                 <nav class="nav-dropdown w-dropdown-list">
                                     <div class="container dropdown-inner">
@@ -22,69 +22,69 @@ class HeaderTemplate extends HTMLElement {
                                                         <div class="nav-dropdown-section-divider">
                                                             <div class="subtitle text-extra-small text-grey mb-10">HOME PAGES</div>
                                                             <div class="row mb-30 w-row">
-                                                                <div class="w-col w-col-6"><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/623a029d47497c25f67b31e2_servers.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Saas</div><div class="text-small text-light-grey">Home page - variant 1</div></div></a>
+                                                                <div class="w-col w-col-6"><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/623a029d47497c25f67b31e2_servers.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Web Development</div><div class="text-small text-light-grey">Build/ Customize your dream website</div></div></a>
                                                                     <a
                                                                         href="#" aria-current="page" class="nav-link-block w-inline-block w--current"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62068c759543ef35c8503f9a_box.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon" />
                                                                         <div>
-                                                                            <div class="text-medium text-semi">Startup</div>
-                                                                            <div class="text-small text-light-grey">Home page - variant 2</div>
+                                                                            <div class="text-medium text-semi">Social Media Marketing (SMM)</div>
+                                                                            <div class="text-small text-light-grey">Next level strategy</div>
                                                                         </div>
                                                                         </a>
-                                                                        <a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/623a028a359dbc6c719731c7_database.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Software</div><div class="text-small text-light-grey">Home page - variant 3</div></div></a></div>
+                                                                        </div>
                                                                 <div
-                                                                    class="w-col w-col-6"><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/620bc98eef6a67f73776baf2_brush.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Desktop app</div><div class="text-small text-light-grey">Home page - variant 4</div></div></a>
+                                                                    class="w-col w-col-6"><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/620bc98eef6a67f73776baf2_brush.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Email Marketing</div><div class="text-small text-light-grey">Outreach, Conversion, Marketing</div></div></a>
                                                                     <a
                                                                         href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/620bc9a3fdc3f3b24880538f_toggle.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon" />
                                                                         <div>
-                                                                            <div class="text-medium text-semi">Mobile app</div>
-                                                                            <div class="text-small text-light-grey">Home page - variant 5</div>
+                                                                            <div class="text-medium text-semi">SEO</div>
+                                                                            <div class="text-small text-light-grey">Coming Soon...</div>
                                                                         </div>
-                                                                        </a><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/623a02940d121a5006d0322a_git-compare.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Developer tool</div><div class="text-small text-light-grey">Home page - variant 6</div></div></a></div>
+                                                                        </a>
+                                                                        
+                                                                        
+                                                                        
+                                                                        </div>
                                                         </div>
-                                                        <div class="subtitle text-extra-small text-grey mb-10">TECH PAGES</div>
+                                                        <div class="subtitle text-extra-small text-grey mb-10">SMM Details</div>
                                                         <div class="row w-row">
-                                                            <div class="w-col w-col-6"><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb391651501432172b012_download.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Download</div></div></a>
-                                                                <a
-                                                                    href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/620bc997d9f0376083934acd_users.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon" />
-                                                                    <div>
-                                                                        <div class="text-medium text-semi">Case stadies</div>
-                                                                    </div>
-                                                                    </a>
+                                                            <div class="w-col w-col-6"><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb391651501432172b012_download.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Social Ads</div></div></a>
+                                                            
                                                             </div>
-                                                            <div class="w-col w-col-6"><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb3913b47d548a3f2b6c6_grid-layout.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Integrations</div></div></a></div>
+                                                            <div class="w-col w-col-6"><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb3913b47d548a3f2b6c6_grid-layout.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Content Marketing</div></div></a></div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="w-col w-col-4 w-col-small-small-stack">
-                                                    <div class="subtitle text-extra-small text-grey mb-10">FEATURES PAGES</div>
-                                                    <div class="mb-30"><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60f5950ee816cfd767d0a239_compass.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Product features</div></div></a>
+                                                    <div class="subtitle text-extra-small text-grey mb-10">Web Development Services</div>
+                                                    <div class="mb-30"><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60f5950ee816cfd767d0a239_compass.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Full Website Creation</div></div></a>
                                                         <a
                                                             href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60f5950202189644d7d95b60_layers.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon" />
                                                             <div>
-                                                                <div class="text-medium text-semi">Solutions</div>
+                                                                <div class="text-medium text-semi">Landing Page, Single Page</div>
                                                             </div>
-                                                            </a><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60f593bbe816cf6903d09f2d_shield-tick.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Use cases</div></div></a></div>
+                                                            </a><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/60f593bbe816cf6903d09f2d_shield-tick.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Customize/Redesign</div></div></a></div>
                                                     <div
-                                                        class="subtitle text-extra-small text-grey mb-10">PRICING PAGES</div><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb758ee998b8f47bb6552_tag.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Price plans</div></div></a>
+                                                        class="subtitle text-extra-small text-grey mb-10">SMM Services</div><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb758ee998b8f47bb6552_tag.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Social Ads</div></div></a>
                                                 <a
                                                     href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb758f7202234523f570b_toggle.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon" />
                                                     <div>
-                                                        <div class="text-medium text-semi">Custom plan</div>
+                                                        <div class="text-medium text-semi">Content Management</div>
                                                     </div>
-                                                    </a><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb758ee7f14ef149fac32_cart.svg" loading="lazy" width="16" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">License purchase</div></div></a></div>
+                                                    </a>
+                                                    </div>
                                         </div>
                                     </div>
                                     <div class="nav-dropdown-right w-col w-col-4 w-col-stack">
                                         <div class="nav-dropdown-right-bg"></div>
                                         <div class="nav-dropdown-right-content">
-                                            <div class="subtitle text-extra-small text-grey mb-10">LEARN</div><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62499d6b4993c18620f63328_91%20(2).svg" loading="lazy" width="36" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Help center</div><div class="text-small text-light-grey">Advice and answers from the Softkit team</div></div></a>
+                                            <div class="subtitle text-extra-small text-grey mb-10">LEARN</div><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62499d6b4993c18620f63328_91%20(2).svg" loading="lazy" width="36" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Help center</div><div class="text-small text-light-grey">Advice and answers from the Solveki team</div></div></a>
                                             <a
                                                 href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62499d3661b33d52968a505e_05%20(3).svg" loading="lazy" width="36" alt="" class="nav-dropdown-link-icon" />
                                                 <div>
                                                     <div class="text-medium text-semi">Support</div>
                                                     <div class="text-small text-light-grey">Let us know how we can help</div>
                                                 </div>
-                                                </a><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb05fecff6a3cb8032be2_code-doc.svg" loading="lazy" width="36" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Documentation</div><div class="text-small text-light-grey">Examples and references for using API</div></div></a>
+                                                </a><a href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62bdb05fecff6a3cb8032be2_code-doc.svg" loading="lazy" width="36" alt="" class="nav-dropdown-link-icon"/><div><div class="text-medium text-semi">Documentation</div><div class="text-small text-light-grey">Documentations for our tools and software</div></div></a>
                                                 <a
                                                     href="#" class="nav-link-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/62499d79e3129e018160f962_02%20(3).svg" loading="lazy" width="36" alt="" class="nav-dropdown-link-icon" />
                                                     <div>
@@ -101,7 +101,7 @@ class HeaderTemplate extends HTMLElement {
                 <div data-hover="false" data-delay="0" class="nav-dropdown-link w-dropdown">
                     <div class="nav-link dropdown w-dropdown-toggle">
                         <div class="nav-link-icon w-icon-dropdown-toggle"></div>
-                        <div>Platform</div>
+                        <div>Solutions</div>
                     </div>
                     <nav class="nav-dropdown w-dropdown-list">
                         <div class="container dropdown-inner">
@@ -110,7 +110,7 @@ class HeaderTemplate extends HTMLElement {
                                     <div>
                                         <div class="subtitle text-extra-small text-grey mb-20">FEATURES</div>
                                         <div class="row nav-link-block-row w-row">
-                                            <div class="w-col w-col-6"><a href="#" class="nav-link-block light-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/623a37ab4d26f92dbddd537f_dev-feature-2.svg" loading="lazy" width="100" alt="" class="nav-link-block-icon"/><div><div class="text-semi mb-10 text-white">Product features</div><div class="text-light-grey text-small mb-10">Suspendisse varius enim in eros elementum tristique.</div><div class="text-small">Learn more</div></div></a></div>
+                                            <div class="w-col w-col-6"><a href="#" class="nav-link-block light-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/623a37ab4d26f92dbddd537f_dev-feature-2.svg" loading="lazy" width="100" alt="" class="nav-link-block-icon"/><div><div class="text-semi mb-10 text-white">Business Software</div><div class="text-light-grey text-small mb-10">Automate your business with our powerful software.</div><div class="text-small">Learn more</div></div></a></div>
                                             <div
                                                 class="w-col w-col-6"><a href="#" class="nav-link-block light-block w-inline-block"><img src="https://uploads-ssl.webflow.com/60e442218dc45d472ca993d7/623a38544d26f9e4efdd568f_dev-feature-1.svg" loading="lazy" width="100" alt="" class="mr-14"/><div><div class="text-semi mb-10 text-white">Solutions</div><div class="text-light-grey text-small mb-10">Suspendisse varius enim in eros elementum tristique.</div><div class="text-small">Learn more</div></div></a></div>
                                     </div>
